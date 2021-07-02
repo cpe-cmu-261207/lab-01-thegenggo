@@ -9,8 +9,8 @@
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
 
-<body class="bg-red-600 p-10">
-    <div class="bg-white border-2 border-black shadow-lg rounded-lg">
+<body class="bg-local" style="background-image: url(./images/elsword.jpg);">
+    <div class="bg-white bg-opacity-80 md:m-10 border-2 border-black shadow-lg rounded-3xl overflow-hidden">
         <!-- Nav bar -->
         <nav class="bg-gray-800">
             <div class="max-w-7xl">
@@ -35,12 +35,12 @@
         <!-- Contract -->
         <div class="max-w-screen-md mx-auto">
             <p class="font-bold text-2xl m-4 p-4 text-center">Contact Me</p>
-            <div class="flex">
-                <img class="w-60 rounded-full border-2 border-black" src="images/profile_img.jpg">
-                <table class="table-fixed mx-4">
+            <div class="flex px-4">
+                <img class="h-20 md:w-60 md:h-full rounded-full border-2 border-black" src="images/profile_img.jpg">
+                <table class="table-fixed mx-4 text-xs md:text-base w-56 md:w-full">
                     <tbody>
                         <tr>
-                            <td class="w-1/2">Name</td>
+                            <td class="w-1/4 md:w-20">Name</td>
                             <td>Kritsanaphong Tepwerakul</td>
                         </tr>
                         <tr>
@@ -53,7 +53,7 @@
                         </tr>
                         <tr>
                             <td>Facebook</td>
-                            <td><a href="https://www.facebook.com/Kritsanaphong.Tepweerakul/">https://www.facebook.com/Kritsanaphong.Tepweerakul/</a></td>
+                            <td><a href="https://www.facebook.com/Kritsanaphong.Tepweerakul/" target="_blank"><p class="break-words">https://www.facebook.com/Kritsanaphong.Tepweerakul/</p></a></td>
                         </tr>
                         <tr>
                             <td>Email</td>
@@ -72,7 +72,7 @@
             </div>
         </div>
         <!-- Copy right -->
-        <p class="m-4 text-center text-red-500">
+        <p class="mt-10 m-4 text-center text-red-500">
             © 2021 hyperkisane.com by Kritsanaphong Tepwerakul
         </p>
     </div>
