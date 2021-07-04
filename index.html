@@ -10,26 +10,22 @@
 </head>
 
 <body class="bg-fixed bg-auto bg-top" style="background-image: url(./images/elsword.jpg);">
-  <div class="bg-white bg-opacity-80 md:m-10 border-2 border-black shadow-lg rounded-3xl overflow-hidden">
+  <div class="bg-gradient-to-tl from-white via-white to-transparent bg-opacity-20 md:m-10 border-2 border-black shadow-lg rounded-3xl overflow-hidden">
     <!-- Nav bar -->
-    <nav class="bg-gray-800 border-b-2 border-black">
+    <nav class="bg-gradient-to-r from-black via-gray-900 to-gray-800 border-b-2 border-black">
       <div class="max-w-full">
         <div class="flex items-center h-16 justify-end px-4">
           <div class="flex space-x-4">
             <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-            <a href="./index.html"
-              class="bg-gray-900 text-white hover:bg-gray-700 hover:text-white p-2 rounded-md text-sm font-medium"
-              aria-current="page">Home</a>
+            <a href="./index.html" class="bg-gray-900 text-white hover:bg-gray-700 hover:text-white p-2 rounded-md text-sm font-medium" aria-current="page">Home</a>
 
-            <a href="./experience.html"
-              class="text-gray-300 hover:bg-gray-700 hover:text-white p-2 rounded-md text-sm font-medium">Experience</a>
+            <a href="./experience.html" class="text-gray-300 hover:bg-gray-700 hover:text-white p-2 rounded-md text-sm font-medium">Experience</a>
 
-            <a href="./contact.html"
-              class="text-gray-300 hover:bg-gray-700 hover:text-white p-2 rounded-md text-sm font-medium">Contact</a>
+            <a href="./contact.html" class="text-gray-300 hover:bg-gray-700 hover:text-white p-2 rounded-md text-sm font-medium">Contact</a>
           </div>
         </div>
-    </nav>
-    <div class="max-w-screen-md mx-auto">
+    </div></nav>
+    <div class="max-w-screen-lg mx-auto">
       <!-- Info -->
       <div class="flex m-4 p-4">
         <img class="h-14 md:h-52 rounded-full border-2 border-black" src="images/profile_img.jpg">
@@ -48,41 +44,33 @@
         My Skill
       </p>
       <!-- Card -->
-      <div class="space-y-4">
-        <div class="bg-white lg:transition lg:transform-gpu duration-300 max-w-md mx-auto rounded-xl shadow-2xl overflow-hidden md:max-w-2xl border-2 hover:border-black hover:scale-110 cursor-pointer">
-          <div class="flex">
-            <img class="object-fill w-5/12 md:w-1/4" src="./images/programming.jpg">
-            <div class="p-8 w-3/4">
-              <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold break-words">Programming</div>
-              <p class="mt-2 text-gray-500">C, C++, C#, Scratch, Java, HTML and CSS</p>
-            </div>
+      <div class="flex flex-wrap justify-center">
+        <div class="relative bg-white transition transform-gpu w-72 h-56 duration-1000 rounded-xl shadow-2xl overflow-hidden border-2 hover:border-black hover:scale-110 cursor-pointer m-4">
+            <img class="absolute duration-1000 transform-gpu object-fill w-full h-full hover:-translate-y-full z-20 rounded-xl" src="./images/programming.jpg">
+            <div class="absolute inset-0 p-4 z-10 h-full w-full">
+              <div class="uppercase tracking-wide text-xs text-indigo-500 font-semibold md:text-base">Programming</div>
+              <p class="mt-2 text-xs md:text-base">C, C++, C#, Scratch, Java, HTML and CSS</p>
           </div>
         </div>
-        <div class="bg-white lg:transition lg:transform-gpu duration-300 max-w-md mx-auto rounded-xl shadow-2xl overflow-hidden md:max-w-2xl border-2 hover:border-black hover:scale-110 cursor-pointer">
-          <div class="flex">
-            <img class="object-fill w-5/12 md:w-1/4" src="./images/gaming.jpg">
-            <div class="p-8 w-3/4">
-              <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Gaming</div>
-              <p class="mt-2 text-gray-500">Elsword, League of Legend and Sword Art Online: Alicization Lycoris</p>
-            </div>
+        <div class="relative bg-white transition transform-gpu w-72 h-56 duration-1000 rounded-xl shadow-2xl overflow-hidden border-2 hover:border-black hover:scale-110 cursor-pointer m-4">
+            <img class="absolute duration-1000 transform-gpu object-fill w-full h-full hover:-translate-y-full z-20 rounded-xl" src="./images/gaming.jpg">
+            <div class="absolute inset-0 p-4 z-10 h-full w-full">
+              <div class="uppercase tracking-wide text-xs text-indigo-500 font-semibold md:text-base">Gaming</div>
+              <p class="mt-2 text-xs md:text-base">Elsword, League of Legend and Sword Art Online: Alicization Lycoris</p>
           </div>
         </div>
-        <div class="bg-white lg:transition lg:transform-gpu duration-300 max-w-md mx-auto bg-white rounded-xl shadow-2xl overflow-hidden md:max-w-2xl border-2 hover:border-black hover:scale-110 cursor-pointer">
-          <div class="flex">
-            <img class="object-fill w-5/12 md:w-1/4" src="./images/music.jpg">
-            <div class="p-8 w-3/4">
-              <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Music</div>
-              <p class="mt-2 text-gray-500">Guitar and Piano</p>
-            </div>
+        <div class="relative bg-white transition transform-gpu w-72 h-56 duration-1000 bg-white rounded-xl shadow-2xl overflow-hidden border-2 hover:border-black hover:scale-110 cursor-pointer m-4">
+            <img class="absolute duration-1000 transform-gpu object-fill w-full h-full hover:-translate-y-full z-20 rounded-xl" src="./images/music.jpg">
+            <div class="absolute inset-0 p-4 z-10 h-full w-full">
+              <div class="uppercase tracking-wide text-xs text-indigo-500 font-semibold md:text-base">Music</div>
+              <p class="mt-2 text-xs md:text-base">Guitar and Piano</p>
           </div>
         </div>
       </div>
     </div>
     <!-- Copy right -->
-    <p class="mt-10 p-5 text-center text-red-500 text-xs md:text-base">
+    <p class="my-4 p-5 text-center text-red-500 text-xs md:text-base">
       © 2021 hyperkisane.com by Kritsanaphong Tepwerakul
     </p>
   </div>
 </body>
-
-</html>
